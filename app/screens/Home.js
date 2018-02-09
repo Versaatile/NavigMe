@@ -63,6 +63,12 @@ text="Show my position"          onPress={this.handlePressMap}
             <Ionicons name={`${ICON_PREFIX}-map`} size={ICON_SIZE} color={ICON_COLOR} />
           }
         />
+                <HomeListItem
+text="Show my position"          onPress={this.handlePressMap}
+          customIcon={
+            <Ionicons name={`${ICON_PREFIX}-map`} size={ICON_SIZE} color={ICON_COLOR} />
+          }
+        />
         <Separator> </Separator>   
         </ScrollView>
 
